@@ -8,7 +8,6 @@ representation of the Neo object found in the Model class."""
 from models import *
 
 class Controller:
-
     def __init__(self, neoobject):
         self.neoobject = neoobject
 

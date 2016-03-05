@@ -7,7 +7,6 @@ Provides methods for easy access to the information in the Neo object via
 the Controller for the user."""
 
 class Model: 
-
     def __init__(self, neoobject):
         self.neoobject = neoobject
         self.blocks = []    
@@ -22,7 +21,6 @@ class Model:
     
 
 class Block(Model):
-
     def __init__(self):
         Model.__init__(self)
         self.segments = []
@@ -42,13 +40,11 @@ class Block(Model):
 
 
 class Segment(Model):
-    
-    def __init__(self):
+        def __init__(self):
         pass
 
 
 class RecordingChannel(Model):
-
     def __init__(self):
         pass
 
