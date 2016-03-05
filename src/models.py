@@ -14,7 +14,7 @@ class Model:
     def walk(self):
         # Get list of blocks
         self.blocks = self.neoobject.read(lazy=False, cascade=True)
-
+            
     def getContents(self):
         contents = 'There are {} blocks in this Neo object'.format(len(self.blocks))
         return contents    
@@ -40,7 +40,7 @@ class Block(Model):
 
 
 class Segment(Model):
-        def __init__(self):
+    def __init__(self):
         pass
 
 
