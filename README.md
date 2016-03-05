@@ -1,5 +1,5 @@
-neo_paths
 
+neo_paths
 ==========================================================================
 
 This is the code repository for neo_paths. This repository was created 
@@ -10,12 +10,12 @@ Neo objects are flexible in that they can store data from multiple file
 formats. Neo objects belong to the Python Neo package, whose documentation 
 can be found at the link below:
 
-    * https://pythonhosted.org/neo/
+  * https://pythonhosted.org/neo/
 
 Their ability to load and store multiple data formats stems from the 
 Neo io module. 
-
-    * https://pythonhosted.org/neo/io.html
+ 
+  * https://pythonhosted.org/neo/io.html
 
 In the Computational Physiology Lab, the Neo objects are used to store 
 electrophysiology data originating from several data formats, notably MCS 
